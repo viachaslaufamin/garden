@@ -1,0 +1,60 @@
+.discount_block{
+   background: linear-gradient(80.46deg, #87933D -0.68%, #55610B 66.66%);
+   padding:32px 32px 0px 32px;
+   border-radius: 15px;
+   margin: 0 40px;
+}
+.discount_block input{
+   background-color: transparent;
+   color: white;
+   border: 3px solid #FFFFF1;
+   opacity: 1;
+   padding: 16px 32px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 26px;
+   text-align: left;
+   
+}
+.discount_block input::-moz-placeholder { 
+   color: white; 
+   opacity: 1;
+}
+
+.discount_block>div form{
+   display: flex;
+   flex-direction: column;
+}
+.discount_block input:focus{
+   outline: none;
+   border-color: white;
+}
+.discount_block h2{
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 70.4px;
+   text-align: center;
+   color: white;
+   margin-bottom: 24px;
+}
+.discount_block div{
+   display: flex;
+   justify-content: space-between;
+}
+.discount_block>div form{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   width: 516px;
+   padding: 32px 0 32px 32px ;
+}
+.discount_block>div form button{
+   width: Fixed (516px)px;
+   height: Hug (58px)px;
+   padding: 16px 32px 16px 32px;
+   gap: 10px;
+   border-radius: 10px;
+   opacity: 0px;
+   margin-top: 16px;
+}

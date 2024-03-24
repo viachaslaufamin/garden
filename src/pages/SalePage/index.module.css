@@ -1,0 +1,16 @@
+.conteiner{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   background-color: #FFFFF1;
+}
+.conteiner h2{
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 70.4px;
+}
+.conteiner>div:last-child{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 32px;
+}

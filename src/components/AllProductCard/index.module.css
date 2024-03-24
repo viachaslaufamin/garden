@@ -1,0 +1,103 @@
+.card div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+   border-radius: 15px;
+   background-color: white;
+}
+.card1 div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+   border-radius: 15px;
+   background-color: white;
+}
+.card div img{
+   width: 316px;
+   height: 350px;
+   object-fit: cover;
+   border-bottom: 1px solid #DDDDDD;
+}
+.card1 div img{
+   width: 316px;
+   height: 350px;
+   object-fit: cover;
+   border-bottom: 1px solid #DDDDDD;
+}
+.card {
+   border-radius: 15px;
+   border: 1px solid #DDDDDD;
+   position: relative;
+   margin-bottom: 80px;
+}
+.card1 {
+   border-radius: 15px;
+   border: 1px solid #DDDDDD;
+   position: relative;
+   margin-bottom: 80px;
+}
+.card>div>div>p{
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 26px;
+   max-width: 252px;
+}
+.card1>div>div>p{
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 26px;;
+   max-width: 252px;
+}
+.card>div>div>div>p:first-child{
+font-size: 40px;
+font-weight: 600;
+line-height: 44px;
+text-align: left;
+color: black;
+}
+.card1>div>div>div>p:first-child{
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 44px;
+   text-align: left;
+   color: black;
+   }
+.card>div>div>div>p:last-child{
+   text-decoration: line-through;
+   color: #8B8B8B;
+}
+.card1>div>div>div>p:last-child{
+   display: none;
+}
+.card>div>div>div{
+   display: flex;
+   flex-direction: row;
+   align-items: end;
+   padding: 0 32px 32px 32px;
+}
+.card1>div>div>div{
+   display: flex;
+   justify-content: start;
+   flex-direction: row;
+   padding: 0 32px 32px 32px;
+}
+.card>p{
+   position: absolute;
+   padding: 4px 8px 4px 8px;
+   border-radius: 10px;
+   background-color: #F26D22;
+   color: white;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 26px;
+   letter-spacing: 0.03em;
+   top: 16px;
+   right: 16px; 
+}
+.card1>p{
+display: none;
+}

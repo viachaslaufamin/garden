@@ -1,0 +1,17 @@
+.card a div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+}
+.card a div img{
+   max-width: 316px;
+   height: 350px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+.card a{
+   text-decoration: none;
+   color: black;
+}
