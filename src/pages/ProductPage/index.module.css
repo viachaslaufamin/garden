@@ -1,3 +1,61 @@
 .conteiner{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
    background-color: #FFFFF1;
+   padding-top: 40px;
+}
+.conteiner h2{
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 70.4px;
+}
+.conteiner>div:last-child{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 32px;
+}
+.conteiner>div:first-child{
+   display: flex;
+   gap: 30px;
+   position: relative;
+}
+.conteiner>div a{
+   color: #8B8B8B;
+}
+.main_menu div{
+   padding: 8px 16px 8px 16px;
+   border-radius: 15px;
+   border: 1px solid #DDDDDD;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20.16px;
+   text-align: center;
+}
+.main_menu>div:last-child{
+   position: absolute;
+   border-radius: 0px;
+   border: none;
+   border-bottom: 1px solid #DDDDDD;
+   width: 30px;
+   left: 119px;
+   top: 3px;
+}
+.main_menu>div:nth-child(5){
+   position: absolute;
+   border-radius: 0px;
+   border: none;
+   border-bottom: 1px solid #DDDDDD;
+   width: 30px;
+   left: 270px;
+   top: 3px;
+}
+.main_menu>div:nth-child(6){
+   position: absolute;
+   border-radius: 0px;
+   border: none;
+   border-bottom: 1px solid #DDDDDD;
+   width: 30px;
+   left: 421px;
+   top: 3px;
 }

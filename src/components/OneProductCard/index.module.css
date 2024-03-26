@@ -1,3 +1,6 @@
+.card{
+   padding-bottom: 40px;
+}
 .card img{
    width: 780px;
    height: 572px;
@@ -34,11 +37,6 @@
    border-left: 1px solid #DDDDDD;
    border-radius: 10px;
 }
-.descr>div:nth-child(3){
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
 .descr>div:first-child{
    font-size: 40px;
    font-weight: 700;
@@ -70,7 +68,7 @@
    font-weight: 600;
    line-height: 26px;
 }
-.description>p:last-child{
+.description>div>p:last-child{
    font-size: 16px;
    font-weight: 400;
    line-height: 20.8px;
@@ -122,4 +120,16 @@
    font-size: 40px;
    font-weight: 500;
    line-height: 52px;
+}
+.readMore{
+   margin-top: 60px;
+   text-decoration: underline;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20.8px;
+}
+.flex{
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
 }

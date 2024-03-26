@@ -1,0 +1,16 @@
+.conteiner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 40px;
+   background-color: #FFFFF1;
+   border-bottom: 1px solid #DDDDDD;
+}
+.conteiner>nav>ul{
+   display: flex;
+   gap: 32px;
+   list-style: none;
+}
+.conteiner>nav>ul>a>li:hover{
+   color: #DDDDDD;
+}

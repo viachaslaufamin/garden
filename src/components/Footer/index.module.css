@@ -1,0 +1,45 @@
+.conteiner{
+   background-color: #FFFFF1;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   padding-bottom: 80px;
+}
+.title>p{
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 70.4px;
+}
+.card{
+   display: grid;
+   grid-template-columns: 780px 548px;
+   gap: 32px;
+}
+.card>div{
+   background-color: #F2F6D3;
+   padding: 32px 32px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+.card>div>p:first-child{
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 26px;
+   color: #8B8B8B;
+}
+.card>div>p:last-child{
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 44px;
+}
+.card>iframe{
+   width: 1360px;
+   height: 350px;
+   border-radius: 10px;
+}
+.icon{
+   display: flex;
+   gap: 18px;
+}

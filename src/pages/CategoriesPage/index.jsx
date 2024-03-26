@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getCategories } from '../../request/category';
 import s from './index.module.css'
 import CategoriesCard from '../../components/CategoriesCard';
+import { Link } from 'react-router-dom';
 
 export default function CategoriesConteiner() {
 
@@ -16,6 +17,13 @@ export default function CategoriesConteiner() {
 
   return (
     <div className={['wrapper',s.conteiner].join(' ')}>
+      <div className={s.main_menu}>
+        <Link to={'/'}>
+            <div>Main Page</div>
+        </Link>
+        <div>Categories</div>
+        <div></div>
+      </div>
       <div>
         <p>Categories</p>
       </div>

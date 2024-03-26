@@ -25,6 +25,8 @@ export default function ProductsCategoryPage() {
         <Link to={'/categories'}>
             <div>Categories</div>
         </Link>
+        <div>{category ? category.title : 'Loading...'}</div>
+        <div></div>
         <div></div>
       </div>
       <h2>{category ? category.title : 'Loading...'}</h2>

@@ -58,3 +58,6 @@
    opacity: 0px;
    margin-top: 16px;
 }
+.discount_block p{
+   color: red;
+}

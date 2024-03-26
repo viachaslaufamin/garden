@@ -3,6 +3,7 @@
    flex-direction: column;
    gap: 40px;
    background-color: #FFFFF1;
+   padding-top: 40px;
 }
 .conteiner h2{
    font-size: 64px;
@@ -20,7 +21,6 @@
    position: relative;
 }
 .conteiner>div a{
-   text-decoration: none;
    color: #8B8B8B;
 }
 .main_menu div{
