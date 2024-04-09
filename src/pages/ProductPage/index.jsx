@@ -4,6 +4,7 @@ import { Link, useParams } from 'react-router-dom';
 import { getOneProduct } from '../../request/productsRequst';
 import OneProductCard from '../../components/OneProductCard';
 import s from './index.module.css'
+import { getCategories } from '../../request/category';
 
 export default function ProductPage() {
 
@@ -11,8 +12,18 @@ export default function ProductPage() {
   const {product_id} = useParams();
   useEffect(()=>{
     dispatch(getOneProduct(product_id))
-  }, [])
+  }, []);
+  useEffect( () => {
+    dispatch(getCategories)
+}, []);
   const oneProductState = useSelector(store => store.one_product)
+  const categoryState = useSelector(store => store.categories)
+
+  const getCategoryTitle = (categoryId) => {
+    const category = categoryState.find(cat => cat.id === categoryId);
+    return category ? category.title : 'Unknown Category';
+  }
+
   return (
     <div className={['wrapper', s.conteiner].join(' ')}>
             <div className={s.main_menu}>
@@ -22,10 +33,10 @@ export default function ProductPage() {
         <Link to={'/categories'}>
             <div>Categories</div>
         </Link>
-        <Link to={'/?'}>
-            <div>Categories</div>
+        <Link to={`/categories/${oneProductState[0]&&oneProductState[0].categoryId}`}>
+            <div className={s.cat}>{oneProductState.length > 0 ? getCategoryTitle(oneProductState[0].categoryId) : 'Unknown Category'}</div>
         </Link>
-        <div>название товара</div>
+        <div>{oneProductState[0]&&oneProductState[0].title}</div>
         <div></div>
         <div></div>
         <div></div>

@@ -5,6 +5,8 @@
    padding: 30px 40px;
    background-color: #FFFFF1;
    border-bottom: 1px solid #DDDDDD;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 .conteiner>nav>ul{
    display: flex;
@@ -13,4 +15,66 @@
 }
 .conteiner>nav>ul>a>li:hover{
    color: #DDDDDD;
+}
+.burger{
+   display: none;
+}
+.basket{
+   display: flex;
+   gap: 20px;
+   position: relative;
+}
+.not_namber{
+   display: none;
+}
+.namber{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: #92A134;
+   color: #FFFFF1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 10px;
+}
+@media (max-width: 1000px) {
+   .conteiner{
+      padding: 30px 20px;
+   }
+}
+@media (max-width: 768px) {
+   .conteiner{
+      padding: 20px;
+   }
+   .conteiner>nav>ul{
+      gap: 20px;
+   }
+}
+@media (max-width: 480px) {
+   .conteiner{
+      padding: 12px 20px;
+   }
+   .conteiner>nav>ul{
+      display: none;
+   }
+   .burger{
+      display: block;
+      width: 44px;
+      height: 44px;
+   }
+}
+@media (max-width: 360px) {
+      .conteiner{
+         padding: 12px 20px;
+      }
+      .conteiner>nav>ul{
+         display: none;
+      }
+      .burger{
+         display: block;
+         width: 44px;
+         height: 44px;
+      }
 }

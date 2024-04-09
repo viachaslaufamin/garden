@@ -51,7 +51,6 @@ export default function DiscountFirstOrder() {
   };
   
   const isValidEmail = (email) => {
-    // Простая проверка на валидность email
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
 

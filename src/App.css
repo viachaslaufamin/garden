@@ -20,3 +20,35 @@ a{
   text-decoration: none;
   color: black;
 }
+@media (max-width: 1000px) {
+  .wrapperhomepage{
+    width: 1000px;
+  }
+  .wrapper{
+    width: 1000px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapperhomepage{
+    width: 768px;
+  }
+  .wrapper{
+    width: 768px;
+  }
+}
+@media (max-width: 480px) {
+  .wrapperhomepage{
+    width: 480px;
+  }
+  .wrapper{
+    width: 480px;
+  }
+}
+@media (max-width: 360px) {
+  .wrapperhomepage{
+    width: 360px;
+  }
+  .wrapper{
+    width: 360px;
+  }
+}

@@ -59,3 +59,18 @@
    left: 421px;
    top: 3px;
 }
+.cat{
+   width: 122px;
+}
+@media (max-width: 1000px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 360px) {
+
+}

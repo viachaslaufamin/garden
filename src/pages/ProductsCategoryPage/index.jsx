@@ -25,11 +25,11 @@ export default function ProductsCategoryPage() {
         <Link to={'/categories'}>
             <div>Categories</div>
         </Link>
-        <div>{category ? category.title : 'Loading...'}</div>
+        <div>{category && category.title}</div>
         <div></div>
         <div></div>
       </div>
-      <h2>{category ? category.title : 'Loading...'}</h2>
+      <h2>{category && category.title}</h2>
       <div>
       </div>
       <div>

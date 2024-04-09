@@ -1,4 +1,4 @@
-.card div{
+.card {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -6,35 +6,34 @@
    gap: 16px;
    background-color: #fff;
    border-radius: 15px;
+   border: 1px solid #DDDDDD;
+   position: relative;
+   margin-bottom: 80px;
 }
-.card div img{
+.card img{
    width: 316px;
    height: 350px;
    object-fit: cover;
    border-bottom: 1px solid #DDDDDD;
 }
-.card {
-   border-radius: 15px;
-   border: 1px solid #DDDDDD;
-   position: relative;
-   margin-bottom: 80px;
-}
-.card>div>div>p{
+.card>div>a>div>p{
    font-size: 20px;
    font-weight: 500;
    line-height: 26px;
    max-width: 252px;
+   padding: 10px 30px;
 }
-.card>div>div>div>p:first-child{
+.card>div>a>div>div>p:first-child{
 font-size: 40px;
 font-weight: 600;
 line-height: 44px;
+padding-right: 15px;
 }
-.card>div>div>div>p:last-child{
+.card>div>a>div>div>p:last-child{
    text-decoration: line-through;
    color: #8B8B8B;
 }
-.card>div>div>div{
+.card>div>a>div>div{
    display: flex;
    flex-direction: row;
    align-items: end;
@@ -52,4 +51,34 @@ line-height: 44px;
    letter-spacing: 0.03em;
    top: 16px;
    right: 16px; 
+}
+.add_card{
+   width: 284px;
+   height: 58px;
+   padding: 16px 32px;
+   border-radius: 7px;
+   background-color: #F26D22;
+   color: white;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 26px;
+   text-align: center;
+   position: absolute;
+   top: 265px;
+   cursor: pointer;
+}
+.add_card:active{
+   background-color: #424436;
+}
+@media (max-width: 1000px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 360px) {
+
 }
