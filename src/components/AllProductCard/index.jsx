@@ -10,6 +10,7 @@ export default function AllProductCard({id, image, title, price, discont_price})
   const [showButton, setShowButton] = useState(false);
   const class_name = discont_price === null? s.card1:s.card;
   const price_new = discont_price === null? price : discont_price;
+  
     return (
         <div className={class_name} onMouseEnter={() => setShowButton(true)} onMouseLeave={() => setShowButton(false)}>
           {showButton && ( <div className={s.add_card} onClick={()=> dispatch(addToCarAction({id, image, title, price, discont_price}))}>Add to cart</div>)}

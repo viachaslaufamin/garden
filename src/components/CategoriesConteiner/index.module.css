@@ -36,14 +36,88 @@
    right: 142px;
 }
 @media (max-width: 1000px) {
-
+   .conteiner{
+      margin: 0 20px;
+   }
+   .conteiner> div:first-child{
+      margin-bottom: 32px;
+   }
+   .conteiner>div:last-child{
+      gap: 20px;
+   }
+   .line{
+      width: 425px;
+   }
 }
 @media (max-width: 768px) {
-
+   .conteiner{
+      margin: 0 20px;
+   }
+   .conteiner> div:first-child{
+      margin-bottom: 32px;
+   }
+   .conteiner>div:last-child{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+   }
+   .conteiner>div p:first-child{
+      font-size: 56px;
+      line-height: 61.6px;
+   }
+   .line{
+      width: 250px;
+   }
 }
 @media (max-width: 480px) {
-
+   .conteiner{
+      margin: 0 20px;
+   }
+   .conteiner> div:first-child{
+      margin-bottom: 24px;
+   }
+   .conteiner>div:last-child{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+   }
+   .conteiner>div p:first-child{
+      font-size: 48px;
+      line-height: 52.8px;
+   }
+   .conteiner>div>a>p:last-child{
+      font-size: 14px;
+      line-height: 17.64px;
+   }
+   .line{
+      width: 24px;
+      right: 129px
+   }
 }
 @media (max-width: 360px) {
-
+   .conteiner{
+      margin: 0 20px;
+      position: relative;
+   }
+   .conteiner> div:first-child{
+      flex-direction: column;
+      gap: 1140px;
+      margin-bottom: 0px;
+      position: none;
+   }
+   .conteiner>div:last-child{
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+      position: absolute;
+      top: 75px;
+   }
+   .conteiner>div p:first-child{
+      font-size: 40px;
+      line-height: 44px;
+   }
+   .conteiner>div>a>p:last-child{
+      font-size: 14px;
+      line-height: 17.64px;
+   }
+   .line{
+      display: none;
+   }
 }

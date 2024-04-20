@@ -1,6 +1,6 @@
 .discount_block{
    background: linear-gradient(80.46deg, #87933D -0.68%, #55610B 66.66%);
-   padding:32px 32px 0px 32px;
+   padding:32px 32px 0 32px;
    border-radius: 15px;
    margin: 0 40px;
 }
@@ -14,17 +14,24 @@
    font-size: 20px;
    font-weight: 500;
    line-height: 26px;
-   text-align: left;
-   
+   width: 480px;
 }
 .discount_block input::-moz-placeholder { 
    color: white; 
    opacity: 1;
 }
-
+.discount_block div form div{
+   display: flex;
+   flex-direction: column;
+   width: 516px;
+   gap: 4px;
+}
 .discount_block input:focus{
    outline: none;
-   border-color: white;
+   border-color: #FFFFF1;
+}
+.discount_block div form p{
+   padding-bottom: 5px;
 }
 .discount_block h2{
    font-size: 64px;
@@ -37,6 +44,7 @@
 .discount_block div{
    display: flex;
    justify-content: space-between;
+   overflow:hidden
 }
 .discount_block>div form{
    display: flex;
@@ -57,14 +65,116 @@
    font-size: x-small;
 }
 @media (max-width: 1000px) {
-
+   .discount_block{
+      padding:32px 32px 0 0;
+      border-radius: 15px;
+      margin: 0 20px;
+   }
+   .discount_block input{
+      padding: 16px 20px;
+      width: 380px;
+   }
+   .discount_block img{
+      transform: translate(-210px, 0);
+   }
+   .discount_block>div form{
+      width: 380px;
+      padding: 0;
+      transform: translate(-200px, 0);
+   }
+   .discount_block div form div{
+      width: 380px;
+   }
 }
 @media (max-width: 768px) {
-
+   .discount_block{
+      padding:32px 20px 0 0;
+      border-radius: 15px;
+      margin: 0 20px;
+   }
+   .discount_block input{
+      padding: 16px 20px;
+      width: 280px;
+   }
+   .discount_block img{
+      transform: translate(-340px, 0);
+   }
+   .discount_block>div form{
+      width: 280px;
+      transform: translate(-330px, 0);
+   }
+   .discount_block div form div{
+      width: 380px;
+   }
 }
 @media (max-width: 480px) {
-
+   .discount_block h2{
+      font-size: 48px;
+      line-height: 52.8px;
+   }
+   .discount_block{
+      padding:24px 20px 226px 20px;
+      border-radius: 15px;
+      margin: 0 20px;
+      position: relative;
+   }
+   .discount_block input{
+      padding: 16px 20px;
+      width: 400px;
+   }
+   .discount_block img{
+      position: absolute;
+      width: 418px;
+      transform: translate(0px, 0);
+      top: 490px;
+   }
+   .discount_block>div form{
+      width: 400px;
+      padding: 0;
+      transform: translate(0px, 0);
+   }
+   .discount_block div form div{
+      width: 400px;
+   }
+   .discount_block button{
+      padding: 12px, 20px;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
 }
 @media (max-width: 360px) {
-
+   .discount_block h2{
+      font-size: 40px;
+      line-height: 44px;
+   }
+   .discount_block{
+      padding:24px 20px 240px 20px;
+      border-radius: 15px;
+      margin: 0 20px;
+      position: relative;
+      z-index: 32;
+      overflow:hidden
+   }
+   .discount_block input{
+      padding: 16px 20px;
+      width: 280px;
+   }
+   .discount_block img{
+      position: absolute;
+      width: 454px;
+      top: 470px;
+      left: -60px;
+   }
+   .discount_block>div form{
+      width: 280px;
+      padding: 0;
+   }
+   .discount_block div form div{
+      width: 280px;
+   }
+   .discount_block button{
+      padding: 12px, 20px;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
 }

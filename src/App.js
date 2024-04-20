@@ -19,7 +19,7 @@ function App() {
         <Route path='/' element={ <HomePage/> } />
         <Route path='/categories' element={ <CategoriesPage/> } />
         <Route path='/basket' element={ <BasketPage/> } />
-        <Route path='/not_found' element={ <NotFoundPage/> } />
+        <Route path='*' element={ <NotFoundPage/> } />
         <Route path='/sale' element={ <SalePage/> } />
         <Route path='/all_product' element={ <AllProductPage/> } />
         <Route path='/categories/:category_id' element={ <ProductsCategoryPage/> } />

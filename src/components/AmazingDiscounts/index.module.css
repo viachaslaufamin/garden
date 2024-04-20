@@ -5,6 +5,8 @@
    flex-direction: column;
    gap: 40px;
    padding: 80px 40px;
+   background-position: center;
+   background-size: cover;
 }
 .conteiner>h1{
    font-size: 96px;

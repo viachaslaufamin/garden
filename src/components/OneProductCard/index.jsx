@@ -25,6 +25,7 @@ export default function OneProductCard({id, title, price,discont_price, descript
       }
       setErrorMessage('');
       dispatch(addToCarsAction({id, title, price, discont_price, description, image, count}));
+      setCount(0);
    };
    const [errorMessage, setErrorMessage] = useState('');
    const dispatch = useDispatch();
