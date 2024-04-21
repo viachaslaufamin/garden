@@ -1,0 +1,135 @@
+.conteiner{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   padding-bottom: 80px;
+   background-color: #FFFFF1;
+}
+.conteiner>div:last-child{
+   display: flex;
+}
+.title{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 40px;
+   position: relative;
+   padding-top: 40px;
+}
+.title>p:first-child{
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 70.4px;
+}
+.title a p{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20.16px;
+   text-align: center;
+   color: #8B8B8B;
+   padding: 8px 16px;
+   gap: 10px;
+   border-radius: 10px;
+   border: 1px solid #8B8B8B;
+}
+.line{
+   position: absolute;
+   width: 625px;
+   border-bottom: 1px solid #8B8B8B;
+   right: 170px;
+}
+.no_product{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+.no_product>p{
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 26px;
+}
+.no_product>a>div{
+   padding: 16px 56px;
+   background-color: #92A134;
+   width: 313px;
+   height: 58px;
+   color: white;
+   border-radius: 7px;
+}
+@media (max-width: 1000px) {
+   .conteiner{
+      padding-bottom: 0px;
+   }
+   .line{
+      width: 281px;
+   }
+}
+@media (max-width: 768px) {
+   .conteiner{
+      gap: 32px;
+   }
+   .title{
+      margin-bottom: 0px;
+      padding-top: 32px;
+   }
+   .title>p:first-child{
+      font-size: 56px;
+      line-height: 61.6px;
+   }
+   .line{
+      width: 121px;
+   }
+}
+@media (max-width: 480px) {
+   .conteiner{
+      gap: 24px;
+   }
+   .title{
+      padding-top: 24px;
+   }
+   .title>p:first-child{
+      font-size: 48px;
+      line-height: 52.8px;
+   }
+   .line{
+      display: none;
+   }
+   .no_product>a>div{
+      padding: 12px 52px;
+      width: 285px;
+      height: 47px;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
+   .no_product>p{
+      font-size: 18px;
+      line-height: 23.4px;
+   }
+   .no_product{
+      gap: 24px;
+   }
+   .title a p{
+      font-size: 14px;
+      line-height: 17.64px;
+      padding: 8px 12px;
+      transform: translate(0, 12px);
+      width: 153px;
+   }
+   .title{
+      align-items: normal;
+   }
+}
+@media (max-width: 360px) {
+   .title a p{
+      /*transform: translate(0, 0);
+      position: absolute;
+      width: 169px;
+      top: 230px;
+      right: 90px;*/
+      display: none;
+   }
+   .title>p:first-child{
+      font-size: 40px;
+      line-height: 44px;
+   }
+}

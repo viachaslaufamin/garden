@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+Название проекта
+   "Интернет-магазин товаров для дома и сада" (Garden Products)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Описание проекта
+   Разработка веб-приложения для интернет-магазина товаров для дома и сада. Сайт предоставляет пользователю удобный интерфейс для просмотра товаров, их категоризации, добавления в корзину и оформления заказа.
 
-## Available Scripts
+Используемые Технологии
+   - React
+   - Redux 
+   - CSS,HTML
 
-In the project directory, you can run:
+Подробное описание проекта, включая его цели, функциональность и т.д.:
+   Главная страница
+      1.Отображение списка из 4-х категорий
+      2.Форма на получение скидки 5% c валидацией вводимых данных на клиентской стороне. Валидация реализуется с использованием библиотеки React Hook Form.
+      3.Отображение 4 случайных товаров со скидкой.
 
-### `npm start`
+   Категории товаров
+      1.Просмотр списка всех доступных категорий товаров.
+      2.Возможность перехода в раздел "Товары по категориям" для выбранной категории при клике на карточку категории.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   Товары по категориям
+      1.Отображение списка товаров в выбранной категории.
+      2.Возможность сортировки товаров (по умолчанию, по убыванию цены, по возрастанию цены, по алфавиту).
+      3.Возможность фильтрации товаров (по наличию скидки и по диапазону цен).
+      4.Возможность перехода к подробному описанию конкретного товара при клике на карточку товара.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   Все товары
+      1.Отображение полного списка товаров.
+      2.Возможность сортировки товаров (по умолчанию, по убыванию цены, по возрастанию цены, по алфавиту).
+      3.Возможность фильтрации товаров (по наличию скидки и по диапазону цен).
 
-### `npm test`
+   Товары со скидкой
+      1.Отображение списка товаров со скидкой.
+      2.Возможность сортировки товаров (по умолчанию, по убыванию цены, по возрастанию цены, по алфавиту).
+      3.Возможность фильтрации товаров по диапазону цен.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   Подробное описание товара
+      1.Полная информация о выбранном товаре согласно макету (название, цена, описание, изображения).
+      2.Возможность добавления товара в корзину.
 
-### `npm run build`
+   Корзина
+      1.Отображение списка выбранных товаров с их количеством и общей стоимостью.
+      2.Возможность изменения количества товаров, удаления товаров из корзины.
+      3.Расчет и отображение общей стоимости товаров в корзине.
+      4.Возможность отправки данных о заказе при отправке формы.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+      Страница не найдена
+      1.Отображение страницы с сообщением о том, что запрашиваемая страница не найдена.
+      2.Возможность вернуться на главную страницу.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Дополнительная функциональность 
+      1.Мобильная адаптивность: приложение корректно отображаться на различных устройствах согласно макету.
+Контакт:
+   1.Famin Vichaslau e-mail: viachaslaufamin@gmail.com;
+   2.Aliaksandra Serhiyevich e-mail:sandrasergievich@gmail.com
+   3.Diana Stepanenko  e-mail:diana.stepanenko@yahoo.de
+   4.Yelyzaveta Diadechko e-mail:liza.dyadechko@gmail.com
+Ссылка на проект: https://github.com/viachaslaufamin/garden

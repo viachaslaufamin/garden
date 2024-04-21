@@ -1,0 +1,18 @@
+.conteiner{
+   display: flex;
+   flex-direction: column;
+   gap: 80px;
+   background-color: #FFFFF1;
+}
+@media (max-width: 1000px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 360px) {
+
+}
