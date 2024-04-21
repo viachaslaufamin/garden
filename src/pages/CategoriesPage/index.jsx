@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getCategories } from '../../request/category';
 import s from './index.module.css'
-import CategoriesCard from '../../components/CategoriesCard';
 import { Link } from 'react-router-dom';
+import CategoriesPageCard from '../../components/CatrgoriesPageCard';
 
 export default function CategoriesConteiner() {
 
@@ -29,7 +29,7 @@ export default function CategoriesConteiner() {
       </div>
       <div>
       {
-        categoryData.map(el => <CategoriesCard  key={el.id} {...el} />)
+        categoryData.map(el => <CategoriesPageCard  key={el.id} {...el} />)
       }
       </div>
     </div>

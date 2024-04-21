@@ -1,6 +1,5 @@
 .conteiner{
    background-color: #FFFFF1;
-   padding-bottom: 80px;
    display: flex;
    flex-direction: column;
    gap: 40px;
@@ -8,7 +7,7 @@
 }
 .conteiner>div:last-child{
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(5, 1fr);
    gap: 32px;
 }
 .conteiner>div>p:first-child{
@@ -49,14 +48,45 @@
    top: 3px;
 }
 @media (max-width: 1000px) {
-
+   .conteiner>div:last-child{
+      grid-template-columns: repeat(3, 1fr);
+      gap: 21px;
+   }
 }
 @media (max-width: 768px) {
-
+   .conteiner{
+      gap: 32px;
+      padding-top: 32px;
+   }
+   .conteiner>div:last-child{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+   }
+   .conteiner>div>p:first-child{
+      font-size: 56px;
+      line-height: 61.6px;
+   }
 }
 @media (max-width: 480px) {
-
+   .conteiner>div:last-child{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+   }
+   .conteiner>div>p:first-child{
+      font-size: 48px;
+      line-height: 52.8px;
+   }
+   .main_menu{
+      display: none;
+   }
 }
 @media (max-width: 360px) {
-
+   .conteiner>div:last-child{
+      grid-template-columns: 1fr;
+      gap: 20px;
+   }
+   .conteiner>div>p:first-child{
+      font-size: 40px;
+      line-height: 44px;
+   }
 }

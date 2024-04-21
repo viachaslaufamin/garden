@@ -3,10 +3,15 @@
    border-radius: 7px;
    border: 1px solid #DDDDDD;
    width: 780px;
+   overflow: hidden;
+   background-color: white;
+}
+.image{
+   height: 180px;
 }
 .image>img{
    width: 200px;
-   height: 180px;
+   height: 210px;
    border-radius: 7px;
    border-right: 1px solid #DDDDDD;
 }
@@ -73,14 +78,113 @@
    text-decoration: line-through;
 }
 @media (max-width: 1000px) {
-
+   .card{
+      width: 470px;
+      max-height: 234px;
+   }
+   .image{
+      max-height: 234px;
+   }
+   .image>img{
+      width: 200px;
+      height: 234px;
+   }
+   .description{
+      width: 250px;
+      padding: 20px;
+      gap: 12px;
+   }
+   .title>p:first-child{
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 26px;
+   }
+   .description>div:last-child{
+      flex-direction: column;
+      gap: 12px;
+      align-items: start;
+   }
 }
 @media (max-width: 768px) {
-
+   .card{
+      width: 728px;
+      max-height: 136px;
+   }
+   .image{
+      max-height: 234px;
+   }
+   .image>img{
+      width: 229px;
+      height: 158px;
+   }
+   .description{
+      width: 479px;
+   }
+   .title>p:first-child{
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 26px;
+   }
+   .description>div:last-child{
+      flex-direction:row;
+      gap: 12px;
+      align-items: start;
+   }
 }
 @media (max-width: 480px) {
-
+   .card{
+      width: 440px;
+      max-height: 175px;
+   }
+   .image{
+      max-height: 225px;
+   }
+   .image>img{
+      width: 210px;
+      height: 225px;
+   }
+   .description{
+      width: 230px;
+   }
+   .title>p:first-child{
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 26px;
+   }
+   .description>div:last-child{
+      flex-direction:column;
+      gap: 12px;
+      align-items: start;
+   }
+   .count p{
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .price>p{
+      font-size: 30px;
+      line-height: 39.6px;
+   }
+   .price_discont>p:first-child{
+      font-size: 30px;
+      line-height: 39.6px;
+   }
+   .price_discont>p:last-child{
+      font-size: 16px;
+      line-height: 23.4px;
+   }
 }
 @media (max-width: 360px) {
-
+   .card{
+      width: 320px;
+   }
+   .image>img{
+      width: 116px;
+      height: 205px;
+   }
+   .description{
+      width: 204px;
+   }
 }

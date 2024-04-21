@@ -44,14 +44,73 @@
    gap: 32px;
 }
 @media (max-width: 1000px) {
-
+   .conteiner img{
+      width: 690px;
+      height: 270px;
+      object-fit: contain;
+   }
+   .conteiner>div{
+      padding: 60px 120px ;
+   }
 }
 @media (max-width: 768px) {
-
+   .conteiner img{
+      width: 648px;
+      height: 240px;
+   }
+   .conteiner>div{
+      padding: 60px 47px ;
+   }
+   .conteiner h2{
+      font-size: 56px;
+      line-height: 61.6px;
+   }
 }
 @media (max-width: 480px) {
-
+   .conteiner img{
+      width: 440px;
+      height: 162px;
+   }
+   .conteiner>div{
+      padding: 56px 20px ;
+   }
+   .conteiner h2{
+      font-size: 46px;
+      line-height: 52.8px;
+   }
+   .conteiner p{
+      font-size: 18px;
+      line-height: 23.4px;
+   }
+   .conteiner a div{
+      width: 191px;
+      height: 47px;
+      padding: 12px 52px;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
 }
 @media (max-width: 360px) {
-
+   .conteiner img{
+      width: 320px;
+      height: 117px;
+   }
+   .conteiner>div{
+      padding: 56px 20px 0;
+   }
+   .conteiner h2{
+      font-size: 46px;
+      line-height: 52.8px;
+   }
+   .conteiner p{
+      font-size: 18px;
+      line-height: 23.4px;
+   }
+   .conteiner a div{
+      width: 191px;
+      height: 47px;
+      padding: 12px 52px;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
 }

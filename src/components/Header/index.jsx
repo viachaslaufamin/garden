@@ -23,16 +23,16 @@ export default function Header() {
         <ul>
         <IoMdClose className={s.close} onClick={toggleMenu}/>
           <Link to={'/'}>
-            <li>Main Page</li>
+            <li onClick={toggleMenu}>Main Page</li>
           </Link>
           <Link to={'/categories'}>
-            <li>Categories</li>
+            <li onClick={toggleMenu}>Categories</li>
           </Link>
           <Link to={'/all_product'}>
-            <li>All products</li>
+            <li onClick={toggleMenu}>All products</li>
           </Link>
           <Link to={'/sale'}>
-            <li>All sales</li>
+            <li onClick={toggleMenu}>All sales</li>
           </Link>
         </ul>
       </nav>

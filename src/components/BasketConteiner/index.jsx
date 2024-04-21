@@ -44,6 +44,7 @@ export default function BasketConteiner() {
         };
   
         post_discount(discount_user);
+        setIsOpen(true)
         event.target.reset();
         setErrors({});
       }
@@ -85,16 +86,22 @@ export default function BasketConteiner() {
           <p>{totalCount} items</p>
           <div>
             <p>Total</p>
-            <p>${totalPrice}</p>
+            <p>${totalPrice.toFixed(2)}</p>
           </div>
           <form onSubmit={add_discount_user}>
-            <input type='text' placeholder='Name' name='name'/>
-            {errors.name && <p className={s.error_message}>{errors.name}</p>}
-            <input pattern='[+0-9]+' type='text' placeholder='Phone number' name='phone_number'/>
-            {errors.phone_number && <p className={s.error_message}>{errors.phone_number}</p>}
-            <input type='text' placeholder='Email' name='mail'/>
-            {errors.mail && <p className={s.error_message}>{errors.mail}</p>}
-            <button onClick={() => setIsOpen(true)}>Order</button>
+            <div>
+              <input type='text' placeholder='Name' name='name'/>
+              {errors.name && <p className={s.error_message}>{errors.name}</p>}
+            </div>
+            <div>
+              <input pattern='[+0-9]+' type='text' placeholder='Phone number' name='phone_number'/>
+              {errors.phone_number && <p className={s.error_message}>{errors.phone_number}</p>}
+            </div>
+            <div>
+              <input type='text' placeholder='Email' name='mail'/>
+              {errors.mail && <p className={s.error_message}>{errors.mail}</p>}
+            </div>
+            <button>Order</button>
           </form>
         </div>
       </div>

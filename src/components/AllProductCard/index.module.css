@@ -21,6 +21,7 @@
    border-radius: 15px;
    border: 1px solid #DDDDDD;
    position: relative;
+   overflow:hidden
 }
 .card1{
    display: flex;
@@ -33,6 +34,7 @@
    border-radius: 15px;
    border: 1px solid #DDDDDD;
    position: relative;
+   overflow:hidden
 }
 .card>div>a>div>p{
    font-size: 20px;
@@ -121,14 +123,125 @@ display: none;
    background-color: #424436;
 }
 @media (max-width: 1000px) {
-
+   .card img{
+      width: 225px;
+      height: 250px;
+   }
+   .card1 img{
+      width: 225px;
+      height: 250px;
+   }
+   .card>div>a>div>p{
+      max-width: 220px;
+   }
+   .card1>div>a>div>p{
+      max-width: 220px;
+   }
+   .add_card{
+      width: 204px;
+      height: 48px;
+      padding: 10px 8px;
+      font-size: 18px;
+      top: 175px;
+   }
+   .add_card:active{
+      background-color: #424436;
+   }
 }
 @media (max-width: 768px) {
-
+   .card img{
+      width: 354px;
+   }
+   .card1 img{
+      width: 354px;
+   }
+   .card>div>a>div>p{
+      max-width: 220px;
+   }
+   .card1>div>a>div>p{
+      max-width: 344px;
+   }
+   .add_card{
+      width: 274px;
+      height: 58px;
+      padding: 14px 8px;
+      font-size: 20px;
+      top: 175px;
+   }
 }
 @media (max-width: 480px) {
-
+   .card img{
+      width: 210px;
+      height: 220px;
+   }
+   .card1 img{
+      width: 210px;
+      height: 220px;
+   }
+   .card>div>a>div>p{
+      max-width: 200px;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
+   .card1>div>a>div>p{
+      max-width: 210px;
+      font-family: Montserrat;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
+   .add_card{
+      width: 200px;
+      height: 48px;
+      padding: 8px 8px;
+      font-size: 14px;
+      top: 155px;
+   }
+   .card1>div>a>div>div>p:first-child{
+      font-size: 36px;
+      line-height: 39.6px;
+   }
+   .card>div>a>div>div>p:first-child{
+      font-size: 34px;
+      line-height: 39.6px;
+   }
+   .card>div>a>div>div>p:last-child{
+      text-decoration: line-through;
+      color: #8B8B8B;
+      font-size: 16px;
+   }
+   .card>div>a>div>div{
+      padding: 0 20px 20px 20px;
+   }
+   .card1>div>a>div>div{
+      padding: 0 20px 20px 20px;
+   }
+   .price>p:first-child{
+      padding-right: 13px;
+   }
 }
 @media (max-width: 360px) {
-
+   .card img{
+      width: 320px;
+   }
+   .card1 img{
+      width: 320px;
+   }
+   .card>div>a>div>p{
+      max-width: 200px;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
+   .card1>div>a>div>p{
+      max-width: 210px;
+      font-family: Montserrat;
+      font-size: 18px;
+      line-height: 23.4px;
+   }
+   .add_card{
+      width: 240px;
+      height: 48px;
+      padding: 8px 8px;
+      font-size: 16px;
+      top: 155px;
+   }
 }

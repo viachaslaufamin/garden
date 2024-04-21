@@ -16,8 +16,8 @@ export default function CardBasket({id, image, title, price, discont_price, coun
             <img src={host+image} alt={title} />
          </div>
          <div className={s.description}>
-            <div>
-               <p>{title}</p>
+            <div className={s.title}>
+               <p style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{title}</p>
                <p onClick={()=>dispatch(clearCardAction(id))}><AiOutlineClose /></p>
             </div>
             <div>

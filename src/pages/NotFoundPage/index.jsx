@@ -13,7 +13,8 @@ export default function NotFoundPage() {
         <div>
           <div>
             <h2>Page Not Found</h2>
-            <p>We’re sorry, the page you requested could not be found.Please go back to the homepage.</p>
+            <p>We’re sorry, the page you requested could not be found.</p>
+            <p>Please go back to the homepage.</p>
           </div>
           <Link to={'/'}>
             <div>Go Home</div>
