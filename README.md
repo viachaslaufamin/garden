@@ -53,7 +53,7 @@
       1.Мобильная адаптивность: приложение корректно отображаться на различных устройствах согласно макету.
 Контакт:
    1.Famin Vichaslau e-mail: viachaslaufamin@gmail.com;
-   2.Aliaksandra Serhiyevich e-mail:sandrasergievich@gmail.com
-   3.Diana Stepanenko  e-mail:diana.stepanenko@yahoo.de
-   4.Yelyzaveta Diadechko e-mail:liza.dyadechko@gmail.com
+   2.Aliaksandra Serhiyevich e-mail: sandrasergievich@gmail.com
+   3.Diana Stepanenko  e-mail: diana.stepanenko@yahoo.de
+   4.Yelyzaveta Diadechko e-mail: liza.dyadechko@gmail.com
 Ссылка на проект: https://github.com/viachaslaufamin/garden
