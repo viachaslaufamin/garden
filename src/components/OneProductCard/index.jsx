@@ -40,7 +40,7 @@ return (
          <div className={class_name}>
             <p>${price_new}</p>
             <div>
-               <p>${(price).toFixed(0)}</p>
+               <p>${(price).toFixed(1)}</p>
                <p>-{(((price-discont_price)*100)%price).toFixed(0)}%</p>
             </div>
          </div>
