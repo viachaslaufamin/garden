@@ -1,0 +1,40 @@
+.card{
+    width: 316px;
+    height: 422px;
+    border-radius: 12px;
+    border: 1px solid #DDDDDD;
+}
+
+.card div img{
+    width: 316px;
+    height: 284px;
+    border-bottom: 1px solid #DDDDDD;
+    border: 0 0 1px 0;
+    border-radius: 12px;
+}
+.card_title{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px 32px 32px 32px;
+}
+.card_title > p:first-child{
+    color: #424436;
+    font-weight: 500;
+    font-size: 20px;
+    white-space: nowrap; /* Предотвращает перенос текста */
+    overflow: hidden; /* Скрывает часть текста, которая не помещается */
+    text-overflow: ellipsis;
+}
+
+
+.card_title > p:last-child{
+    font-weight: 600;
+    font-size: 40px;
+    color: #424436;
+
+}
+
+.all a {
+    text-decoration: none;
+}

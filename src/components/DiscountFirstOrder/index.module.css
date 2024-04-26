@@ -1,0 +1,89 @@
+.container{
+   
+    width: 1360px;
+    height: 486px;
+    border-radius: 12px;
+    background: linear-gradient(261.47deg, #0B710B 32.63%, #339933 98.96%);
+    /* display: flex; 
+    justify-content: center;
+    align-items: center; */
+
+    margin: 0 auto ;
+
+    position: relative;
+    
+}
+
+.container h2 {
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 64px;
+text-align: center;
+color: white;
+line-height: 70.4px;
+padding-top: 30px;
+
+width: 1296px;
+height: 70px;
+margin: 0 auto ;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.container img{
+    width: 748px;
+height: 360px;
+position: absolute;
+left: 32px;
+margin-bottom: 0;
+bottom: 0;
+
+}
+
+.form {
+    /* flex-direction: column;
+    align-items: flex-end;
+    justify-content: center; */
+    width: 516px;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-gap: 18px; */
+    
+
+    position: absolute;
+    right: 32px;
+    bottom: 16px;
+    gap: 10px;
+    /* top: 50px; */
+  }
+
+  .form input{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+    color: 
+    #8B8B8B;
+    box-shadow: none;
+    border: solid 1px white;
+    width: 452px;
+    height: 58px;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+
+
+  }
+
+  .form button{
+    background-color: white;
+    border: solid 1px white;
+    color: black;
+    width: 452px;
+    height: 58px;
+    border-radius: 5px;
+
+  }

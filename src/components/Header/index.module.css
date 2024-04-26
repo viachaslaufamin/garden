@@ -1,0 +1,67 @@
+.menu{
+    width: 1440px;
+    height: 128px;
+    border: solid 1px #DDDDDD;
+    background-color: white;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+    position: relative;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color:  #424436;
+    cursor: pointer;
+}
+
+.menu img:first-child{
+    width: 70px;
+    height: 70px;
+
+    position: absolute;
+    left: 40px;
+top: 30px;
+cursor: pointer;
+}
+
+.menu img + img{
+    width: 60px;
+    height: 32px;
+    position: absolute;
+    left: 130px;
+top: 48px;
+cursor: pointer;
+}
+
+.menu_image img:first-child{
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    left: 91%;
+    top: 40px;
+cursor: pointer;
+
+   
+   
+}
+
+.menu_image img:last-child{
+   
+    width: 44px;
+    height: 48px;
+position: absolute;
+top: 40px;
+left: 95%;
+cursor: pointer;
+   
+}

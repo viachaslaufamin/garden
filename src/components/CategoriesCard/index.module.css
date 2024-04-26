@@ -1,0 +1,28 @@
+
+.cat_card{
+    width: 316px;
+    height: 392px;
+}
+.cat_card a div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+   
+ }
+ .cat_card a div img{
+    max-width: 316px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+ .cat_card a{
+    text-decoration: none;
+    color:  #424436;
+    ;
+ }
+
+ 
+
+

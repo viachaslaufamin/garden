@@ -1,0 +1,82 @@
+.card{
+   display: flex;
+   gap: 20px;
+   
+}
+
+.card img {
+    height: 572px;
+    width: 780px;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+
+.info{
+    width: 548px;
+    height: 574px;
+  
+
+}
+.info h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #424436;
+    margin-bottom: 32px;
+
+}
+.info>p{
+    font-weight: 700;
+    color: #424436; 
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+.count{
+    display: flex;
+}
+.count>p{
+    border: 1px solid #DDDDDD;
+    width: 96px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+}
+.count>button{
+    width: 58px;
+    height: 58px;
+    color: #424436;
+    border-radius: 6px;
+    border: 1px solid #DDDDDD;
+    background-color: transparent;
+    cursor: pointer;
+}
+.button>button{
+    width: 316px;
+    height: 58px;
+    border-radius: 6px;
+    padding: 16px 32px 16px 32px;
+    border: 1px solid #92A134;
+    color: white;
+    background-color: #92A134;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    gap: 32px;
+}
+.description p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #424436;
+}
+.description div{
+    font-weight: 400;
+    font-size: 16px;
+    color: #424436;
+}
+.all a{
+    text-decoration: none;
+}

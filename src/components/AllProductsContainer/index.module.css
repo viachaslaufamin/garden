@@ -1,0 +1,52 @@
+.container{
+    width: 1360px;
+    margin:  0 auto;
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.menu{
+display: flex;
+gap: 16px;
+
+margin: 40px 925px 40px 40px;
+}
+
+
+.menu div{
+    width: 125px;
+    height: 36px;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8B8B8B;
+    white-space: nowrap; /* Предотвращает перенос текста */
+    overflow: hidden; /* Скрывает часть текста, которая не помещается */
+    text-overflow: ellipsis;
+}
+.menu_last{
+    color:  #424436 !important;
+
+}
+
+.container h2{
+    font-weight: 700;
+    font-size: 64px;
+    color:#424436;
+    margin-bottom: 116px;
+
+}
+
+
+.menu a {
+    text-decoration: none;
+}
